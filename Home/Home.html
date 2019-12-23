@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!--上面的用来指定兼容模式-->
+	<meta name="keywords" content="垃圾分类查询">
+	<meta name="description" content="垃圾分类查询">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>垃圾分类查询手册</title>
+	<link rel="stylesheet" href="../css/HomeStyle.css">
+	<script src="https://at.alicdn.com/t/font_1542534_orlm23j5yvc.js"></script>
+	<script src="../js/jquery-3.4.1.js"></script>
+	<script src="../js/jquery.cookie.js"></script>
+	<script src="../js/search.js"></script>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+	<div class="container">
+		<div class="Menu">
+			<div class="icon1">
+				<svg class="icon" aria-hidden="true">
+					<use xlink:href="#icon-huanweigongren"></use>
+				</svg>
+				<svg class="icon" aria-hidden="true">
+					<use xlink:href="#icon-kehuishouwu-icon"></use>
+				</svg>
+				<svg class="icon" aria-hidden="true" style="color: springgreen;">
+					<use xlink:href="#icon-chuyulaji"></use>
+				</svg>
+				<svg class="icon" aria-hidden="true">
+					<use xlink:href="#icon-youhailaji-icon"></use>
+				</svg>
+				<svg class="icon" aria-hidden="true" style="color: yellow;">
+					<use xlink:href="#icon-qitalaji"></use>
+				</svg>
+			</div>
+			<div class="search">
+				<input type="text" id="garbge" placeholder="请输入你要查询的垃圾" maxlength="99">
+				<button class="search-btn"></button>
+			</div>
+		</div>
+		<div class="divider"></div>
+		<div class="content">
+			<i class="iconfont" id="书本相关" name="e617;" onclick="getPage(this);" style="color: blue;">&#xe617;</i>
+			<i class="iconfont" id="餐具" name="e60c;" onclick="getPage(this);" style="color: rgb(157, 215, 241);">&#xe60c;</i>
+			<i class="iconfont" id="头发相关" name="e606;" onclick="getPage(this);" style="color: violet;">&#xe606;</i>
+			<i class="iconfont" id="金属" name="e615;" onclick="getPage(this);" style="color: gold">&#xe615;</i>
+			<i class="iconfont" id="一次性用品" name="e612;" onclick="getPage(this);">&#xe612;</i>
+			<i class="iconfont" id="剩菜剩饭" name="e60e;" onclick="getPage(this);" style="color: greenyellow">&#xe60e;</i>
+			<i class="iconfont" id="便便" name="e63f;" onclick="getPage(this);" style="color: rgb(150, 75, 0)">&#xe63f;</i>
+			<i class="iconfont" id="体育用品" name="e752;" onclick="getPage(this);">&#xe752;</i>
+			<i class="iconfont" id="电器" name="e605;" onclick="getPage(this);" style="color: rgb(243, 47, 47);">&#xe605;</i>
+			<i class="iconfont" id="卫生用品" name="e67a;" onclick="getPage(this);" style="color: rgb(137, 207, 240);">&#xe67a;</i>
+			<i class="iconfont" id="果蔬皮" name="e609;" onclick="getPage(this);" style="color: #FFA07A;">&#xe609;</i>
+			<i class="iconfont" id="建筑垃圾" name="ee00;" onclick="getPage(this);" style="color: rgb(244,119,89);">&#xee00;</i>
+			<i class="iconfont" id="笔" name="e626;" onclick="getPage(this);">&#xe626;</i>
+			<i class="iconfont" id="衣物" name="e623;" onclick="getPage(this);" style="color: hotpink;">&#xe623;</i>
+			<i class="iconfont" id="纸箱" name="e613;" onclick="getPage(this);" style="color: rgb(150, 75, 0);">&#xe613;</i>
+			<i class="iconfont" id="瓶" name="e644;" onclick="getPage(this);" style="color: rgb(153,204,51);">&#xe644;</i>
+			<i class="iconfont" id="化妆品" name="e600;" onclick="getPage(this);" style="color: rgb(235, 131, 131)">&#xe600;</i>
+			<i class="iconfont" id="实验仪器" name="e6a1;" onclick="getPage(this);" style="color: red">&#xe6a1;</i>
+			<i class="iconfont" id="包装袋" name="e60d;" onclick="getPage(this);" style="color: green">&#xe60d;</i>
+			<i class="iconfont" id="电池" name="e604" onclick="getPage(this);" style="color: red">&#xe604;</i>
+			<i class="iconfont" id="植物" name="e603;" onclick="getPage(this);" style="color: green">&#xe603;</i>
+			<i class="iconfont" id="药品" name="e71a;" onclick="getPage(this);" style="color: red">&#xe71a;</i>
+			<i class="iconfont" id="骨头" name="e634;" onclick="getPage(this);">&#xe634;</i>
+			<div id='result' class="result"></div>
+		</div>
+		<div class="divider"></div>
+		<address>
+			<span>
+					作者：Sun
+			</span>
+			<span>
+				<a href="mailto:2606173264@qq.com">联系我们</a>
+			</span>
+			<span>
+				地址：杭州电子科技大学下沙校区
+			</span>
+			<span>
+				<a href="http://projects.thepaper.cn/thepaper-cases/839studio/ljfl/index.html" target="_blank">参考网站</a>
+			</span>
+			<span>
+				<a href="https://www.thepaper.cn/newsDetail_forward_3715853" target="_blank">垃圾分类思维导图</a>
+			</span>
+		</address>
+	</div>
+</body>
+</html>

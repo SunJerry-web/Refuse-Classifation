@@ -1,0 +1,95 @@
+@import'./font.css';
+body{
+    margin: 0;
+    padding: 0;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content{
+    margin-top: 5rem;
+    margin-left: 2rem;
+    width: 30rem;
+    overflow: hidden;
+    background:#f9f0db;
+    box-shadow: 10px 10px 10px black;
+    cursor: pointer;
+}
+.content-head{
+    width: 100%;
+    height: 18rem;
+    overflow: hidden;
+    position: relative;
+    transition: 0.5s height;
+    -moz-transition: 0.5s height; /* Firefox 4 */
+    -webkit-transition: 0.5s height; /* Safari 和 Chrome */
+    -o-transition: 0.5s height; /* Opera */
+}
+.content:hover > .content-head{
+    height: 9rem;
+}
+.content-head img{
+    width: 100%;
+}
+.content-head .intro{
+    position: absolute;
+    z-index: 1;
+    color: #c5464a;
+    background: rgba(249,240,219,0.3);
+    bottom: 1rem;
+    right: 1rem;
+    font-size: 1.3rem;
+}
+.content-body{
+    height: 4rem;
+    padding: 1.5rem;
+    overflow: hidden;
+    transition: 0.5s height;
+    -moz-transition: 0.5s height; /* Firefox 4 */
+    -webkit-transition: 0.5s height; /* Safari 和 Chrome */
+    -o-transition: 0.5s height; /* Opera */
+}
+
+.content:hover .content-body{
+    height: 15rem;
+}
+
+.content-body > h3{
+    margin: 0;
+    color: #c5464a;
+}
+
+.content-body > p{
+    margin-top: 1.1rem;
+    font-weight: 700;
+}
+
+.content-body > ul{
+    position: relative;
+    margin-top: 1.5rem;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.content:hover .content-body > ul{
+    margin-top: 0.1rem;
+}
+
+.content-foot{
+    padding: 0 1rem 1rem 1rem;
+    font-size: 1.3rem;
+}
+
+.icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+@media screen and (max-width:480px){
+    .content{
+        margin-top: 3rem;
+        margin-left: 0;
+    }
+}
