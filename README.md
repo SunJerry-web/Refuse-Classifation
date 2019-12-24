@@ -28,3 +28,12 @@ Home目录下是html文件
 1.响应式布局：可以分别适应iphone6等手机的竖屏，横屏，ipad，PC端<br>
 2.使用CSS里的transition属性，做了一个动态效果<br>
 3.使用了阿里图标<br>
+
+
+#### 演示地址
+<a href="https://sunjerry-web.github.io/Refuse-Classifation/Home/first.html">演示地址</a><br>
+
+### 项目基本功能
+1.能实现基本的垃圾分类查询功能<br>
+2.对生活中一些常见的垃圾种类进行了归类，点击相应图标即可查看<br>
+3.可以展示基本的垃圾分类标准
