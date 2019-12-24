@@ -1,5 +1,6 @@
 # Refuse-Classifation
 ## 前端实现垃圾分类查询
+Home目录下是html文件
 
 ### first.html（第一个页面）<br>
 1.使用Canvas画布和JS脚本做了一个动画（类似雪碧图），并且使用浮动让它一直浮在左上角的位置<br>
