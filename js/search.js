@@ -37,7 +37,7 @@ $(document).ready(function(){
             $(".result").empty();
         }
         $.ajax({
-            url:"http://api.tianapi.com/txapi/lajifenlei/index",
+            url:"https://api.tianapi.com/txapi/lajifenlei/index",
             type:"GET",
             data:{"key":"a60e8ce03367d4aa8f289c6e7214ab07","word":garbge},
             timeout:"3000",
