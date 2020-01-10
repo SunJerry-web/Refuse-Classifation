@@ -12,7 +12,7 @@ function getPage(o){
     }
 }
 $(document).ready(function(){
-    "using stricts";
+    "use stricts";
     $(".result").hide();
     $("#garbge").blur(function(){
         if($("#garbge").val()===null||$("#garbge").val().trim()===""){
